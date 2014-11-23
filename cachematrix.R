@@ -1,5 +1,5 @@
 ## The following functions makeCacheMatrix() and cacheSolve() are used 
-## to implement to calculate invers of a matrix, but take advantage of the cache
+## to implement calculating inverse of a matrix, but take advantage of the cache
 ## if it has already been calculated
 
 ## makeCacheMatrix Function 
@@ -9,7 +9,7 @@
 ##              2. get the matrix
 ##              3. set the inverse
 ##              4. get the inverse
-##         this list is used as the input to cacheSolve()
+##   this list is used as the input to cacheSolve()
 
 
 makeCacheMatrix <- function(x = matrix()) {
